@@ -119,7 +119,30 @@ Fitur
     }
     ```
 
-### 4. **Peminjaman Buku**
+### 4. **Menambah Kategori Buku (Admin)**
+
+-   Admin dapat menambahkan kategori baru untuk buku yang tersedia di perpustakaan.
+-   **Endpoint**: `/category`
+-   **Metode**: `POST`
+-   **Header**: `Authorization: Bearer <admin_token>`
+-   **Body**:
+    ```json
+    {
+        "name": "Fiction"
+    }
+    ```
+    **Response**:
+    ```json
+    {
+        "message": "Kategori berhasil ditambahkan",
+        "category": {
+            "id": 1,
+            "name": "Fiction"
+        }
+    }
+    ```
+
+### 5. **Peminjaman Buku**
 
 -   Siswa dapat meminjam buku yang tersedia di perpustakaan. Sistem akan mengurangi stok buku dan mencatat waktu peminjaman.
 -   **Endpoint**: `/borrow`
@@ -138,7 +161,7 @@ Fitur
     }
     ```
 
-### 5. **Melihat Daftar Buku**
+### 6. **Melihat Daftar Buku**
 
 -   Siswa dapat melihat daftar buku yang tersedia di perpustakaan.
 -   **Endpoint**: `/books`
@@ -164,7 +187,7 @@ Fitur
     }
     ```
 
-### 6. **Logout**
+### 7. **Logout**
 
 -   Pengguna dapat melakukan logout untuk menghapus token yang digunakan.
 -   **Endpoint**: `/logout`
