@@ -1,6 +1,7 @@
 # Library Management API
 
-API ini digunakan untuk mengelola peminjaman buku, kategori buku, dan pengelolaan pengguna di sistem perpustakaan. API ini menggunakan **Laravel** dan **Sanctum** untuk autentikasi.
+API ini digunakan untuk tugas akhir PAB
+mengelola peminjaman buku, kategori buku, dan pengelolaan pengguna di sistem perpustakaan. API ini menggunakan **Laravel** dan **Sanctum** untuk autentikasi.
 
 ## Fitur
 
