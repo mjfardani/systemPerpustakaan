@@ -138,26 +138,7 @@ Fitur
     }
     ```
 
-### 5. **Pengembalian Buku**
-
--   Siswa dapat mengembalikan buku yang telah dipinjam, dan sistem akan mencatat tanggal pengembalian.
--   **Endpoint**: `/return`
--   **Metode**: `POST`
--   **Header**: `Authorization: Bearer <siswa_token>`
--   **Body**:
-    ```json
-    {
-        "borrowing_id": 1
-    }
-    ```
--   **Response**:
-    ```json
-    {
-        "message": "Buku berhasil dikembalikan"
-    }
-    ```
-
-### 6. **Melihat Daftar Buku**
+### 5. **Melihat Daftar Buku**
 
 -   Siswa dapat melihat daftar buku yang tersedia di perpustakaan.
 -   **Endpoint**: `/books`
@@ -183,7 +164,7 @@ Fitur
     }
     ```
 
-### 7. **Logout**
+### 6. **Logout**
 
 -   Pengguna dapat melakukan logout untuk menghapus token yang digunakan.
 -   **Endpoint**: `/logout`
