@@ -25,6 +25,6 @@ mengelola peminjaman buku, kategori buku, dan pengelolaan pengguna di sistem per
 
 1. **Clone Repositori**
     ```bash
-    git clone https://github.com/username/repository.git
-    cd repository
+    git clone https://github.com/mjfardani/systemPerpustakaan.git
+    cd systemPerpustakaan
     ```
