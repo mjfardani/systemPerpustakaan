@@ -23,12 +23,12 @@ mengelola peminjaman buku, kategori buku, dan pengelolaan pengguna di sistem per
 
 ### Langkah-langkah Instalasi
 
-**Clone Repositori**
+Clone Repositori
 
     git clone https://github.com/mjfardani/systemPerpustakaan.git
     cd systemPerpustakaan
 
-    ## Fitur
+Fitur
 
 1. **Autentikasi Pengguna**
 
