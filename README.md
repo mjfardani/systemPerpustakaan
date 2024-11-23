@@ -24,10 +24,9 @@ mengelola peminjaman buku, kategori buku, dan pengelolaan pengguna di sistem per
 ### Langkah-langkah Instalasi
 
 **Clone Repositori**
-`bash
+
     git clone https://github.com/mjfardani/systemPerpustakaan.git
     cd systemPerpustakaan
-    `
 
     ## Fitur
 
@@ -51,11 +50,7 @@ mengelola peminjaman buku, kategori buku, dan pengelolaan pengguna di sistem per
 
     - Siswa dapat meminjam buku yang tersedia di perpustakaan. Sistem akan mencatat waktu peminjaman dan mengurangi stok buku yang dipinjam.
 
-6. **Pengembalian Buku**
-
-    - Siswa dapat mengembalikan buku yang telah dipinjam. Setelah buku dikembalikan, stok buku akan ditambah dan sistem mencatat tanggal pengembalian.
-
-7. **Melihat Daftar Buku**
+6. **Melihat Daftar Buku**
     - Siswa dapat melihat daftar buku yang tersedia untuk dipinjam.
 
 ## Penggunaan
